@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ping coming soon page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Big+Shoulders+Display:wght@800&family=Epilogue:wght@500;700&family=Inter:wght@700&family=Karla&family=Lexend+Deca&family=Manrope:wght@500;700&family=Overpass&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Big+Shoulders+Display:wght@800&family=Epilogue:wght@500;700&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@700&family=Karla&family=Lexend+Deca&family=Libre+Franklin:wght@700&family=Manrope:wght@500;700&family=Montserrat:wght@700&family=Open+Sans:wght@400;600&family=Overpass&family=Poppins:wght@700&display=swap');
+
+        body {
+            justify-content: center;
+            justify-items: center;
+            display: flex;
+        }
+
+        .box {
+            justify-content: center;
+            justify-items: center;
+            text-align: center;
+            position: relative;
+            top: 50px;
+        }
+
+        #ping {
+            height: 20px;
+            width: 70px;
+        }
+
+        .subscribe {
+            justify-content: center;
+            position: relative;
+            top: 20px;
+        }
+
+        #we {
+            position: relative;
+            bottom: 35px;
+            color: rgb(174, 168, 168);
+            font-size: 40px;
+            font-family: 'Barlow', sans-serif;
+            font-family: 'Big Shoulders Display', cursive;
+            font-family: 'Epilogue', sans-serif;
+            font-family: 'Fraunces', serif;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Karla', sans-serif;
+            font-family: 'Lexend Deca', sans-serif;
+            font-family: 'Manrope', sans-serif;
+            font-family: 'Overpass', sans-serif;
+        }
+
+        #soon {
+            color: black;
+            font-family: 'Barlow', sans-serif;
+            font-family: 'Big Shoulders Display', cursive;
+            font-family: 'Epilogue', sans-serif;
+            font-family: 'Fraunces', serif;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Karla', sans-serif;
+            font-family: 'Lexend Deca', sans-serif;
+            font-family: 'Libre Franklin', sans-serif;
+            font-family: 'Manrope', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Overpass', sans-serif;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #get {
+            position: relative;
+            bottom: 70px;
+            font-size: 15px;
+            word-spacing: 4px;
+            word-spacing: 1px;
+            color: rgb(117, 114, 114);
+            font-family: 'Barlow', sans-serif;
+            font-family: 'Big Shoulders Display', cursive;
+            font-family: 'Epilogue', sans-serif;
+            font-family: 'Fraunces', serif;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Karla', sans-serif;
+            font-family: 'Lexend Deca', sans-serif;
+            font-family: 'Manrope', sans-serif;
+            font-family: 'Overpass', sans-serif;
+        }
+
+        .me {
+            justify-content: center;
+            position: relative;
+            left: 15px;
+            bottom: 40px;
+        }
+
+        #b1 {
+            position: relative;
+            right: 25px;
+            border: 1px solid hsl(223, 100%, 88%);
+            border-radius: 50px;
+            height: 38px;
+            width: 340px;
+            font-size: 12px;
+            color: rgb(218, 212, 212);
+            background-color: white;
+            padding-right: 190px;
+        }
+
+        #b2 {
+            position: relative;
+            right: 15px;
+            border: 1px solid rgb(185, 212, 241);
+            border-radius: 50px;
+            height: 38px;
+            width: 155px;
+            font-size: 12px;
+            color: hsl(0, 0%, 100%);
+            background-color: hsl(223, 60%, 56%);
+        }
+
+        .picture {
+            justify-content: center;
+            position: relative;
+            top: 22px;
+        }
+
+        .picture img {
+            height: 280px;
+            width: 500px;
+        }
+
+        .links {
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 65px;
+            right: 10px;
+        }
+
+        #t {
+            position: relative;
+            left: 12px;
+        }
+
+        #i {
+            position: relative;
+            left: 22px;
+        }
+
+        .copyright {
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            top: 65px;
+        }
+
+        .copyright p {
+            font-size: 9px;
+            color: rgb(202, 197, 197);
+            font-family: 'Barlow', sans-serif;
+            font-family: 'Big Shoulders Display', cursive;
+            font-family: 'Epilogue', sans-serif;
+            font-family: 'Fraunces', serif;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Karla', sans-serif;
+            font-family: 'Lexend Deca', sans-serif;
+            font-family: 'Manrope', sans-serif;
+            font-family: 'Overpass', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img id="ping" src="images/logo.svg" alt="Ping">
+        <div class="subscribe">
+            <p id="we">We are launching <span id="soon">soon!</span></p>
+            <p id="get">Subscribe and get notified</p>
+        </div>
+        <div class="me">
+            <button id="b1">Your email address...</button>
+            <button id="b2">Notify me</button>
+        </div>
+        <div class="picture">
+            <img src="images/illustration-dashboard.png" alt="dashboard">
+        </div>
+        <div class="links">
+            <img src="images/fb.png" height="15px" width="15px" alt="fb">
+            <img id="t" src="images/twitt.png" height="15px" width="15px" alt="twitter">
+            <img id="i" src="images/instagram.png" height="15px" width="15px" alt="instagram">
+        </div>
+        <div class="copyright">
+            <p>(c)Copyright Ping. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>
